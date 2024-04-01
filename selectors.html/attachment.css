@@ -1,0 +1,35 @@
+/*body{
+    background-image: url("../img/ihçiug.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: scroll;
+    background-color: pink;
+}/*
+/*background: #ffffff url("img_tree.png") no-repeat right top;
+margin-right: 200px;*/
+
+#borda1{
+    border: 10px dotted black;
+    padding:15px;
+    background: violet;
+    background-clip: border-box;
+    background-image: url("../img/ihçiug.jpg");
+    background-repeat: no-repeat;
+}
+#borda2{
+    border: 10px dotted black;
+    padding: 15px;
+    background: lightblue;
+    background-clip: padding-box;
+    background-image: url("../img/ihçiug.jpg");
+    background-repeat: no-repeat;
+}
+#borda3 {
+    border: 10px dotted black;
+    padding: 15px;
+    background: green;
+    background-clip: content-box;
+    background-image: url("../img/ihçiug.jpg");
+    background-repeat: no-repeat;
+}
